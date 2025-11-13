@@ -1,39 +1,50 @@
 
 *{
- background-color: #1a1a1a;
- padding: 0;
- margin: 0;
+    background-color: #1a1a1a;
+    padding: 0;
+    margin: 0;
 }
 
-
-#banner{
+.banner{
     height: 450px;
-    width: 750px;
+    width: 850px;
+    background-image: url("./assents/banner.png"); /*ele add uma imagem como fundo*/
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-li a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-}
-ul{
 
+li a{
+ text-decoration: none;
+ color: #ffffff;
+ font-size: 20px;
+ padding: 20px;
+}
+
+ul{
+display: flex; /*Ativa a propriedade de alinhamento*/
+flex-direction: row; /*Coloca os elementos na horizontal*/
+}
+
+li{
+list-style: none; /*Remove os pontos das lista*/
+}
+
+nav{
     display: flex;
     flex-direction: row;
-}
-li{ 
-    list-style: none;
-}
-nav{
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   align-items: center;
-}
+    align-items: center;
+    justify-content: space-between;
 
 
+}
 
 #logo{
-      height: 100px;
-       width: 100px;
+    height: 100px;
+    width: 100px;
 }
+.bi{
+    font-size: 30px;
+    color: #4c544c;
+    
+}
+  
